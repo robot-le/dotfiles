@@ -101,3 +101,6 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias set-tresholds='sudo tlp setcharge 40 60 BAT0'
 alias remove-tresholds='sudo tlp fullcharge BAT0'
+
+# My exports
+export PATH='$PATH:/home/asan/.local/bin'
