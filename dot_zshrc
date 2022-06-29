@@ -104,3 +104,4 @@ alias remove-tresholds='sudo tlp fullcharge BAT0'
 
 # My exports
 export PATH=$PATH:/home/asan/.local/bin
+export PATH=$PATH:/home/asan/anaconda3/bin
