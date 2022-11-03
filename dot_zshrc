@@ -77,6 +77,10 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+# export PATH=$PATH:/home/asan/.local/bin
+# export PATH=$PATH:/home/asan/anaconda3/bin
+export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$HOME/anaconda3/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -102,6 +106,3 @@ fi
 alias set-tresholds='sudo tlp setcharge 40 80 BAT0'
 alias remove-tresholds='sudo tlp fullcharge BAT0'
 
-# My exports
-export PATH=$PATH:/home/asan/.local/bin
-export PATH=$PATH:/home/asan/anaconda3/bin
