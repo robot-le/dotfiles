@@ -105,4 +105,5 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias set-tresholds='sudo tlp setcharge 40 80 BAT0'
 alias remove-tresholds='sudo tlp fullcharge BAT0'
+alias scrapers_venv='. $HOME/Programming/scrapers/scrapers_venv/bin/activate'
 
